@@ -260,7 +260,57 @@ footer{
     </p>
   </div>
  </section>
+<section>
+  <h2>GET A TRANSPORT QUOTE</h2>
 
+  <div class="card">
+
+    <input id="name" type="text" placeholder="Your Name"
+      style="width:100%;padding:14px;margin:7px 0;border-radius:8px;border:1px solid #444;">
+
+    <input id="phone" type="tel" placeholder="Phone Number"
+      style="width:100%;padding:14px;margin:7px 0;border-radius:8px;border:1px solid #444;">
+
+    <input id="load" type="text" placeholder="Load / Goods Details"
+      style="width:100%;padding:14px;margin:7px 0;border-radius:8px;border:1px solid #444;">
+
+    <input id="from" type="text" placeholder="From Location"
+      style="width:100%;padding:14px;margin:7px 0;border-radius:8px;border:1px solid #444;">
+
+    <input id="to" type="text" placeholder="To Location"
+      style="width:100%;padding:14px;margin:7px 0;border-radius:8px;border:1px solid #444;">
+
+    <button onclick="sendWhatsApp()"
+      style="width:100%;padding:14px;margin-top:10px;border:0;border-radius:8px;background:#25D366;color:white;font-weight:bold;font-size:16px;">
+      💬 SEND ENQUIRY ON WHATSAPP
+    </button>
+
+  </div>
+</section>
+
+<script>
+function sendWhatsApp(){
+
+  let name = document.getElementById("name").value;
+  let phone = document.getElementById("phone").value;
+  let load = document.getElementById("load").value;
+  let from = document.getElementById("from").value;
+  let to = document.getElementById("to").value;
+
+  let message =
+    "Hello BKS TRANSPORT,%0A%0A" +
+    "Name: " + name + "%0A" +
+    "Phone: " + phone + "%0A" +
+    "Load: " + load + "%0A" +
+    "From: " + from + "%0A" +
+    "To: " + to;
+
+  window.open(
+    "https://wa.me/919894122686?text=" + message,
+    "_blank"
+  );
+}
+</script>
 <section>
   <h2>OUR VEHICLES</h2>
 
