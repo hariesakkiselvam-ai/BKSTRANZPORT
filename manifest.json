@@ -1,0 +1,10 @@
+{
+  "name": "BKS TRANSPORT",
+  "short_name": "BKS",
+  "description": "BKS TRANSPORT - Goods & Load Transport",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0b0d10",
+  "theme_color": "#111820",
+  "orientation": "portrait"
+}
