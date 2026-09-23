@@ -1,5 +1,5 @@
-{
-  "name": "BKS TRANSPORT",
+<link rel="manifest" href="manifest.json">
+{ "name": "BKS TRANSPORT",
   "short_name": "BKS",
   "description": "BKS TRANSPORT - Goods & Load Transport",
   "start_url": "./",
