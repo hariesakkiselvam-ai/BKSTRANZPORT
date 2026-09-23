@@ -8,3 +8,12 @@
   "theme_color": "#111820",
   "orientation": "portrait"
 }<meta name="mobile-web-app-capable" content="yes">
+"orientation": "portrait",
+"icons": [
+  {
+    "src": "85ddca84-f60f-4b31-acc3-d50680a9b1c9.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }
+]
+}
